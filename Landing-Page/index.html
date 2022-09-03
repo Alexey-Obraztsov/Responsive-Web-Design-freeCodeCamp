@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header id="header">
+                <div class="brend">
+                    <img id="header-img" src="./assets/img/logo.png" alt="logo">
+                    <h1 id="brend">ASTON MARTIN</h1>
+                </div>
+                <nav  id="nav-bar">
+                    <ul>
+                        <li><a href="#description" class="nav-link">DESCRIPTION</a></li>
+                        <li><a href="#enhancements" class="nav-link">ENHANCEMENTS</a></li>
+                        <li><a href="#convertible" class="nav-link">CONVERTIBLE</a></li>
+                        <li><a href="#film" class="nav-link">VIDEO</a></li>
+                        <li><a href="#price" class="nav-link">PRICE</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main id="main">
+                <div class="main-block">
+                    <div class="image" >
+                        <img id="car-front" src="./assets/img/car.jpg" alt="car">
+                    </div>
+                    <div class="text">
+                        <h2 id="description" class="main-title">Aston Martin DB5</h2>
+                        <p>
+                            Often billed as the “most famous car in the world”, James Bond’s gadget 
+                            laden Silver Birch DB5 in Goldfinger became many a schoolboy’s dream. 
+                            Regarded by many as the most beautiful Aston Martin produced, DB5 shares 
+                            many similar traits to DB4. However, DB5’s most substantial change occurred 
+                            under the bonnet.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="text">
+                        <h2 id="enhancements" class="main-title">ENHANCEMENTS</h2>
+                        <p>
+                            The engine capacity was enlarged to 4 litres by increasing the bore to 96mm. 
+                            The car had three SU carburettors, as fitted to the outgoing DB4 Vantage, and 
+                            also shared the latter’s fared in headlamps. Significant too was the introduction 
+                            of a full synchromesh ZF 5 speed gearbox.
+                        </p>
+                    </div>
+                    <div class="image" >
+                        <img id="cabin" src="./assets/img/cabin.jpg" alt="cabin">
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="image" >
+                        <img id="car-aside" src="./assets/img/aside.jpg" alt="aside">
+                    </div>
+                    <div class="text">
+                        <h2 id="convertible" class="main-title">CONVERTIBLE</h2>
+                        <p>
+                            A DB5 Vantage was offered with 3 Weber carburettors and different camshafts to offer a higher level of performance. A Convertible was also offered which was available with an optional steel hard top. A small number of DB5s were built as ‘shooting brakes’, a sportsman’s interpretation of a modern ‘estate’ car, by coachbuilder Harold Radford.
+                        </p>
+                    </div>
+                </div>
+                <div class="main-video">
+                    <h1 id="film" class="main-title">VIDEO</h1>
+                    <video id="video" controls="controls" width='1600' poster="./assets/img/black-front.jpg">
+                        <source src="https://youtu.be/jvGRhkrXDLg" type='video/mp4'>
+                    </video>
+                </div>
+                <h2 id="price" class="main-title">PRICE</h2>
+                <div class="price-box">
+                    <div class="box">
+                        <h3 class="title-price">Standard</h3>
+                        <img class="dollar" src="./assets/img/dollar.jpeg" alt="dollar">
+                        <p>Rent a car for 24 hours</p>
+                        <p class="cost">500$</p>
+                        <button class="price-button">ORDER</button>
+                    </div>
+                    <div class="box">
+                        <h3 class="title-price">Premium</h3>
+                        <img class="dollar" src="./assets/img/dollar.jpeg" alt="dollar">
+                        <p>Rent a car for 2 weeks</p>
+                        <p class="cost">5000$</p>
+                        <button class="price-button">ORDER</button>
+                    </div>
+                    <div class="box">
+                        <h3 class="title-price">Gold</h3>
+                        <img class="dollar" src="./assets/img/dollar.jpeg" alt="dollar">
+                        <p>Rent a car for one month</p>
+                        <p class="cost">9000$</p>
+                        <button class="price-button">ORDER</button>
+                    </div>
+                </div>
+                <div id="search">
+                    <h3 class="main-title">Do you want to know more?</h3>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+                        <input id="submit" type="submit" value="Get Started">
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
