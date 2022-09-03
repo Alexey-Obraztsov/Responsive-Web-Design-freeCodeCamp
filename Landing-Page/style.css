@@ -1,0 +1,287 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 0 auto;
+}
+
+#header {
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+
+.brend {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-img {
+  margin-top: -5px;
+  height: 80px;
+  background-color: none;
+}
+
+#brend {
+  padding-left: 5px;
+  font-size: 2rem;
+  color: white;
+}
+
+#nav-bar {
+  margin-right: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.7rem;
+}
+
+li {
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+li a:hover,
+li a:focus {
+  color: #efa515;
+}
+
+#main {
+  padding-top: 70px;
+  width: 100%;
+  font-size: 1.7rem;
+  color: aliceblue;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  margin: 15px auto;
+  width: 90%;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+}
+
+#cabin,
+#car-front,
+#car-aside {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-video {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#video {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text {
+  width: 40%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.price-box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  width: 280px;
+  height: 480px;
+  border: 3px solid #efa515;
+  text-align: center;
+}
+
+.cost {
+  color: #f5c223;
+}
+
+.title-price {
+  color: #f5c223;
+}
+
+.price-button {
+  width: 180px;
+  height: 50px;
+  background-color: #f5c223;
+  font-size: 20px;
+}
+
+.price-button:hover,
+.price-button:focus {
+  background-color: white;
+}
+
+.dollar {
+  width: 150px;
+}
+
+#search {
+  text-align: center;
+  height: 200px;
+}
+
+#email,
+#submit {
+  font-size: 20px;
+}
+
+#submit:hover,
+#submit:focus {
+  background-color: #f5c223;
+  color: white;
+}
+
+@media (max-width: 1640px) {
+  main {
+    font-size: 20px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  main {
+    padding-top: 0px;
+  }
+
+  .text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  .box {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1010px) {
+  #main {
+    padding-top: 15px;
+  }
+  .main-block {
+    flex-flow: wrap;
+  }
+
+  #header {
+    height: 90px;
+    position: relative;
+  }
+
+  .brend {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  #brend {
+    margin: 0;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+
+  .price-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 436px) {
+  #header {
+    height: 40px;
+  }
+  #header-img {
+    width: 100px;
+    height: auto;
+    margin-top: 0%;
+  }
+
+  #brend {
+    font-size: 15px;
+  }
+  .main-title,
+  .text {
+    font-size: 20px;
+  }
+
+  .box {
+    width: 200px;
+    height: 350px;
+    font-size: 15px;
+  }
+
+  .dollar {
+    width: 150px;
+  }
+
+  #search {
+    text-align: center;
+    height: 100px;
+  }
+
+  .price-button {
+    font-size: 15px;
+    width: 110px;
+    height: 30px;
+  }
+
+  #email,
+  #submit {
+    font-size: 15px;
+  }
+}
